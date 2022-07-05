@@ -272,6 +272,11 @@
            }
 
         }
+        document.addEventListener('click', (e) => {
+                if(!header.contains(e.target)) {
+                header.style.height = null;
+                }
+            })
     </script>
 </body>
 
